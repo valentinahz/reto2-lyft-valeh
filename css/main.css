@@ -1,0 +1,270 @@
+/* Reto de código-Lyft */
+
+/* Código Web */
+
+nav , body{
+font-family: 'Montserrat', sans-serif;		
+}
+
+
+
+/* ------------  Menú ----------------  */
+nav{
+ width: 100%;
+ height: 130px;
+ position: fixed;
+ z-index: 100;
+ background:linear-gradient(rgba(46, 18, 68, 0.6),transparent ); 
+ }
+
+
+nav div a{
+text-decoration:none; 
+}
+
+nav: hover{
+ background: #FFF;
+ 
+}
+
+/*Posicion Botonera */
+.header div{
+ float: right;
+ padding-top: 40px;
+ padding-right: 110px;
+}
+
+/*Caracteristicas Botonera */
+.header div a{
+ width: 92px;
+ height: 15px;		
+ color: #FFF;
+ line-height: 3.4;
+ font-weight: 300;
+ font-size: 18px;
+ padding: 20px;	
+}
+
+/* Iso Logo  */
+.header img{
+ width:67px; 
+ height:47px;
+ margin-top: -80px;
+ margin-left:-1050px;
+}
+
+/* botonera hover  */
+.header div a:hover{
+ color: #FF00BF;
+}
+
+
+/* Log In  */
+#login{
+ border: 2px solid white;
+ border-radius: 20%;
+	
+}
+
+
+
+
+/* -------------- Contenido Principal -----------------  */
+
+.principal img{
+ width: 100%
+}
+/*background principal*/
+.cuadro-white{
+ width: 562px;
+ height: 416px;
+ background-color: #FFF;
+ margin-top: -650px;
+ margin-left:790px;
+ position: relative;
+  }
+
+/*titulo principal*/
+.cuadro-white h1{
+ color: #352384;
+ padding-top: 60px;
+ padding-left: 70px;
+ font-size: 40px;
+ font-weight: 600;
+ line-height: 44px;	
+}
+
+/*texto secundario*/
+.cuadro-white p{
+ color:#728099; 
+ margin-top: 11px;
+ padding-left: 70px;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 21px;	
+}
+
+/* Formulario interior */
+.cuadro-white form input{
+ width: 350px;
+ height: 80px;	
+ font-size: 16px;
+ font-weight: 300;
+ color: #728099;
+ border: none;
+ border-bottom: 1px solid  #352384;
+ display: block;
+ margin-left: 70px;
+ margin-top: -40px;
+ padding-top: -30px;
+}
+
+/* Boton principal */
+.cuadro-white button{
+ width: 184px;
+ height: 50px;
+ border: none;
+ border-radius: 5%;
+ font-size: 16px;
+ font-weight: 600;
+ color: #FFF;
+ margin-top: 20px;
+ margin-left: 70px;
+ background-color: #FF00BF;	
+}
+
+/* Sign Up */
+
+.cuadro-white a{
+ margin-left: 20px;
+ color:	#728099;
+ text-decoration-color:#728099;
+}
+
+/* Letra Chica */
+.txt p{
+ margin-top: 100px;	
+font-size: 12px;
+color: 	#728099; 
+}
+
+/* Letra Chica link */
+
+.txt a{
+color: #FF00BF; 	
+}
+
+/*   ----------- Degradado entre contenidos -----------------*/
+.degraded{
+ width: 100%;
+ height: 100px;
+ background: linear-gradient(transparent,#76278f );
+ margin-top: 100px;
+ position: relative;
+ z-index: 1;	
+}
+
+/*   ----------- Contenido Secundario -----------------*/
+
+
+/*----- background  secundario  ---*/
+.secundario{
+ width: 100%;
+ height: 600px;
+ background: linear-gradient(#76278F, #2B1E66);
+ margin-top: 0px;
+ position: absolute;
+}
+
+/*----- Celular imagen ---*/
+.secundario img{
+ width: 479px;
+ height: 555px;
+ margin-top: -10px;
+ margin-left: 700px;
+}
+
+
+
+/*----- Textos ---*/
+.secundario h3{
+ color: #FFF;
+ font-size: 26px;
+ font-weight: 500;
+ line-height: 31px;
+ text-align: left;	
+}
+
+.secundario p {
+ color: #FFF;
+ font-size: 16px;
+ font-weight: 300;
+ text-align: left;
+ line-height: 24px;		
+}
+
+#text-secundario{
+ margin-top:-530px;
+ margin-left: 150px;
+ padding-top: -30px;	
+}
+
+
+/*-----Iframe Videos----*/
+iframe{
+width: 900px;
+height: 500px;	
+}
+/*----------- Contenido Video 1 -----------------*/
+
+/*contenedor*/
+.terciario{
+width: 100%;
+height: 499px;
+background: #FFF;
+margin-top: 600px;
+color: #352384; 
+font-weight: 300;
+position: absolute;
+}
+
+/*textos terciario*/
+.terciario div {
+width: 333px;	
+margin-top: 80px;
+padding-left: 80px;
+}
+
+/*video1*/
+.terciario iframe{
+float: right;
+margin-top: -270px;
+}
+
+
+
+/*----------- Contenido Video 2 -----------------*/
+
+/*contenedor*/
+.cuarto{
+ width: 100%;
+ height: 499px;
+ background: #FFF;
+ color: #352384;
+ font-weight: 300;
+ margin-top: 1099px;
+}
+
+/*video2*/
+.cuarto iframe{
+ float: left;	
+}
+
+
+/*textos*/
+.cuarto div{
+width: 330px;	
+margin-top: 80px;
+padding-left: 950px;
+padding-top: 43px;	
+}
