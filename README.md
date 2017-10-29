@@ -1,92 +1,46 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+## Lyft 
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+### HTML
 
-## Flujo de trabajo
+***
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+###### Primero que nada, decir que tuve problemas con la indentación y el código visualmente se descompenso (se veía bien)... preferí enviar igual el trabajo, ante nada.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+###### Mi menú de navegación esta al tope, y le di una opsición fija.Tiene gradiante en degradado , y tiene un color en hover ,el que fue pedido, y el iso logo.Incluí mis botones en etiquetas (a).
+###### Luego esta la imagen de fondo a todo tamaño, principal, luego introduje los textos de entrada, luego hice un cuadrado de degradado, y luego introduje el segundo contenido, con la iamgen del celular y los textos, y el formulario.
+###### Cada contenido en general lo introduje en un div, para poder moverlo y darle posición de forma más ordenada. 
 
-## Objetivo
+###### Introduje los videos en los contenedores y les di float, dependiendo del lado que deseaba alinear le di un left o un right, y los textos los introduje en un parrafo , con distintos (h) para darle valor, y jerarquia.
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+###### El footer lo desarrolle en una tabla, que fue más fácil posicionar el texto, y ordenarlo, introduje una línea y el texto del copyright.
 
-![Lyft Website](docs/fullpage.png)
 
-## Consideraciones
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+### Css
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+***
 
-* Esta web utiliza la tipografía `Montserrat`.
+###### Atraves del nav, le di posión , color degradado, introduje el isologo , les di a la
+ botonera un hover ,llamando a mi menu (header).
+ 
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
+######Contenido secundario: Luego la imagen de lyft le di un tamaño al 100%, introduje un cuadro blanco, le di posición y margenes, introduje el texto, tambien el formulario, la letra chica de los links. el boton del formulario lo hice usando la etiqueta button y les di propiedades desde el css.
 
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
+###### Luego le di un color de degradado para que la transición de los colores fuera más amigable.
 
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
+###### contenido terciario, cuarto, quinto : luego a traves de la etiqueta iframe, le di un tamaño estandar a los videos, luego a traves del div contenedor, les di una posición , los posicione con float, les di margenes, y posición. 
 
-  ![Lyft - Footer](docs/footer.gif)
 
-  Además, los íconos deberás obtenerlo de `Icomoon`.
+##### El footer lo hice mediante una tabla, le di su color de hover a los textos, les di posición , y margenes, y luego hice la línea, y el texto de copyright.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
 
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
 
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+###### Trabajo realizado por Valentina Herrera para laboratoria, para ser entregado el día ``` 30.octubre.2017```

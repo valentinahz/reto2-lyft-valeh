@@ -11,8 +11,9 @@ font-family: 'Montserrat', sans-serif;
 /* ------------  Menú ----------------  */
 nav{
  width: 100%;
- height: 130px;
+ height: 125px;
  position: fixed;
+ margin-top: -10px;
  z-index: 100;
  background:linear-gradient(rgba(46, 18, 68, 0.6),transparent ); 
  }
@@ -69,18 +70,20 @@ nav: hover{
 
 
 
-/* -------------- Contenido Principal -----------------  */
+/* -------------- Contenido Principal -intro -----------------  */
 
 .principal img{
- width: 100%
+ width: 100%;
+ height: auto;
 }
+
 /*background principal*/
 .cuadro-white{
  width: 562px;
  height: 416px;
  background-color: #FFF;
  margin-top: -650px;
- margin-left:790px;
+ margin-left:784px;
  position: relative;
   }
 
@@ -97,7 +100,7 @@ nav: hover{
 /*texto secundario*/
 .cuadro-white p{
  color:#728099; 
- margin-top: 11px;
+ margin-top: 6px;
  padding-left: 70px;
  font-size: 14px;
  font-weight: 300;
@@ -115,7 +118,7 @@ nav: hover{
  border-bottom: 1px solid  #352384;
  display: block;
  margin-left: 70px;
- margin-top: -40px;
+ margin-top: -43px;
  padding-top: -30px;
 }
 
@@ -134,7 +137,6 @@ nav: hover{
 }
 
 /* Sign Up */
-
 .cuadro-white a{
  margin-left: 20px;
  color:	#728099;
@@ -149,7 +151,6 @@ color: 	#728099;
 }
 
 /* Letra Chica link */
-
 .txt a{
 color: #FF00BF; 	
 }
@@ -164,7 +165,7 @@ color: #FF00BF;
  z-index: 1;	
 }
 
-/*   ----------- Contenido Secundario -----------------*/
+/*   ----------- Contenido Secundario -celular -----------------*/
 
 
 /*----- background  secundario  ---*/
@@ -186,7 +187,7 @@ color: #FF00BF;
 
 
 
-/*----- Textos ---*/
+/*----- titulo texto ---*/
 .secundario h3{
  color: #FFF;
  font-size: 26px;
@@ -195,6 +196,7 @@ color: #FF00BF;
  text-align: left;	
 }
 
+/*parrafo*/
 .secundario p {
  color: #FFF;
  font-size: 16px;
@@ -203,6 +205,7 @@ color: #FF00BF;
  line-height: 24px;		
 }
 
+/*texto posición*/
 #text-secundario{
  margin-top:-530px;
  margin-left: 150px;
@@ -213,58 +216,177 @@ color: #FF00BF;
 /*-----Iframe Videos----*/
 iframe{
 width: 900px;
-height: 500px;	
+height: 642px;	
 }
-/*----------- Contenido Video 1 -----------------*/
+/*----------- Contenido Terciario-video1 -----------------*/
 
 /*contenedor*/
 .terciario{
 width: 100%;
-height: 499px;
+height: 642px;
 background: #FFF;
-margin-top: 600px;
-color: #352384; 
+margin-top: 545px;
+color: #333447; 
 font-weight: 300;
 position: absolute;
 }
 
 /*textos terciario*/
 .terciario div {
-width: 333px;	
-margin-top: 80px;
-padding-left: 80px;
+width: 330px;	
+margin-top: 155px;
+padding-left: 76px;
 }
 
 /*video1*/
 .terciario iframe{
 float: right;
-margin-top: -270px;
+margin-top: -355px;
+position: relative;
 }
 
 
 
-/*----------- Contenido Video 2 -----------------*/
+/*----------- Contenido Cuarto-video2  -----------------*/
 
 /*contenedor*/
 .cuarto{
  width: 100%;
- height: 499px;
- background: #FFF;
- color: #352384;
+ height: 642px;
+ background:#FFF;
+ color: #333447;
  font-weight: 300;
- margin-top: 1099px;
+ margin-top: 1187px;
+ position: absolute;
 }
 
 /*video2*/
 .cuarto iframe{
- float: left;	
+ float: left;
+ 
 }
 
 
-/*textos*/
+/*textos -cuarto*/
 .cuarto div{
 width: 330px;	
-margin-top: 80px;
+margin-top: 20px;
 padding-left: 950px;
-padding-top: 43px;	
+padding-top: 133px;	
 }
+
+/*----------- Contenido Quinto- video3 ----------------*/
+
+/*background quinto*/
+.quinto{
+ width: 100%;
+ height: 642px;
+ background: #FFF;
+ color: #333447;
+ font-weight: 300;
+ margin-top: 1830px;
+ position: absolute;	
+}
+
+
+/*video3*/
+.quinto iframe{
+ float: right;
+
+}
+
+/*textos -quinto*/
+.quinto div{
+width: 330px;
+padding-left: 77px;
+padding-top: 130px;
+}
+
+
+/*----------- Footer ----------------*/
+
+/* contenedor footer */
+.foot{
+width: 100%;
+height: 680px;
+background: #333447;
+color: #FFF;
+margin-top: 2472px;
+position: relative;
+}
+
+/*td tabla posición*/
+.foot td{
+float: left;
+text-align: center;	
+}
+
+
+/* textos h3 footer*/
+.foot h3{
+ font-size: 16px;
+ font-weight: 700;	
+}
+
+
+/* imagenes footer*/
+.foot img{
+ width: 158px;
+ height: 56px;
+ float: left;
+ text-align: center;
+ border-radius: 5%;	
+ margin: 3px;
+}
+
+
+/*tabla*/
+table{
+ padding-top: 120px;
+ padding: 98px;
+ margin: 6px;
+ margin-left: 111px;	
+}
+
+/*margenes td*/
+table td{
+	margin: 10px;
+    padding: 42px;
+}
+
+
+
+/*botones tabla estado hover*/
+table td p:hover{
+color: #FF00BF;	
+}
+
+table td h3:hover{
+color: #FF00BF;	
+}
+
+
+/*margenes div imagenes*/
+table div{
+ margin: 20px;	
+}
+
+
+/*línea*/
+hr{
+width: 984px;
+height: 1px;
+background-color: #FFF;	
+margin-top: 60px;
+}
+
+.foot p span {
+ text-align: center;
+ margin-left: 568px;	
+}
+
+
+
+	
+
+
