@@ -1,7 +1,11 @@
 /* Reto de código-Lyft */
 
 /* Código Web */
-
+*{
+	margin: 0;
+	
+	box-sizing: border-box;
+}
 nav , body{
 font-family: 'Montserrat', sans-serif;		
 }
@@ -215,8 +219,8 @@ color: #FF00BF;
 
 /*-----Iframe Videos----*/
 iframe{
-width: 900px;
-height: 642px;	
+width: 560px;
+height: 315px;	
 }
 /*----------- Contenido Terciario-video1 -----------------*/
 
@@ -384,6 +388,7 @@ margin-top: 60px;
  text-align: center;
  margin-left: 568px;	
 }
+
 
 
 
