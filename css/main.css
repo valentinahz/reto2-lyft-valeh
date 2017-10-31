@@ -275,7 +275,9 @@ position: relative;
 
 /*textos -cuarto*/
 .cuarto div{
- margin-top: 55px;	
+ margin-top: 55px;
+ margin-left: 100px;
+ display: inline-block;	
 }
 
 /*----------- Contenido Quinto- video3 ----------------*/
@@ -311,7 +313,7 @@ padding-top: 85px;
 /* contenedor footer */
 .foot{
 width: 100%;
-height: 680px;
+height: 500px;
 background: #333447;
 color: #FFF;
 margin-top: 1490px;
