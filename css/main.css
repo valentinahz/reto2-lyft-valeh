@@ -229,7 +229,7 @@ clear: both;
 .terciario{
 width: 100%;
 height: 315px;
-background: yellow;
+background: #FFF;
 margin-top: 545px;
 color: #333447; 
 font-weight: 300;
@@ -259,7 +259,7 @@ position: relative;
 .cuarto{
  width: 100%;
  height: 315px;
- background:red;
+ background:#FFF;
  color: #333447;
  font-weight: 300;
  margin-top: 860px;
@@ -284,10 +284,11 @@ position: relative;
 .quinto{
  width: 100%;
  height: 315px;
- background: green;
+ background: #FFF;
  color: #333447;
+ opacity: 0.5;
  font-weight: 300;
- margin-top: 1830px;
+ margin-top: 1175px;
  position: absolute;	
 }
 
