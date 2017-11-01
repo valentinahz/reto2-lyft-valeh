@@ -382,12 +382,15 @@ hr{
 width: 984px;
 height: 1px;
 background-color: #FFF;	
-margin-top: 60px;
+margin-top: -93px;
+margin-left: 188px;
 }
 
 .foot p span {
  text-align: center;
- margin-left: 568px;	
+ margin-top: 18px;
+ margin-left: 568px;
+ display: inline-block;	
 }
 
 
